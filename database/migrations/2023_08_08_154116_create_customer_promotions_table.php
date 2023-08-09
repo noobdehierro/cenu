@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('customer_promotions', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('customer_id');
+            $table->string('name');
             $table->unsignedBigInteger('id_promotion');
             $table->timestamps();
 

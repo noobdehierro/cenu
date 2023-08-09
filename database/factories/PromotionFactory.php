@@ -17,7 +17,11 @@ class PromotionFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'promotion_name' => '7 dias gratis',
+            'start_date' => now(),
+            'end_date' => now(),
+            'descripcion' => fake()->paragraph(),
+            'promotion_cost' => fake()->randomFloat(2, 0, 1000),
         ];
     }
 }
