@@ -20,474 +20,331 @@ class CustomerPromotionSeeder extends Seeder
         $dateAfter30Days = $dt->toDateTimeString();
 
         $customers = [
-            [
-                'customer_id' => 1348,
-                'name' => 'KEVIN ALEXIS SANCHEZ SAMARRIPA'
-            ],
-            [
-                'customer_id' => 1345,
-                'name' => 'DIEGO FERNANDO HERNANDEZ PEREZ'
-            ],
-            [
-                'customer_id' => 1383,
-                'name' => 'GUILLERMO RICARDO '
-            ],
-            [
-                'customer_id' => 1387,
-                'name' => 'SAMUEL REYES MAXIMINO'
-            ],
-            [
-                'customer_id' => 1395,
-                'name' => 'david alejandro jacobo marquez'
-            ],
-            [
-                'customer_id' => 1398,
-                'name' => 'Luis Fernando  San Pedro  rivera'
-            ],
-            [
-                'customer_id' => 1346,
-                'name' => 'David  Cortes García García'
-            ],
-            [
-                'customer_id' => 1350,
-                'name' => 'Daniel Eduardo  Gallardo  Ceja'
-            ],
-            [
-                'customer_id' => 1401,
-                'name' => 'LUIS GERARDO  ORTA ESCOBAR  '
-            ],
-            [
-                'customer_id' => 1482,
-                'name' => 'Rafael  Arano  castañeda'
-            ],
-            [
-                'customer_id' => 1424,
-                'name' => 'juan antonio olea vargas'
-            ],
-            [
-                'customer_id' => 1448,
-                'name' => 'Mauricio  Sánchez '
-            ],
-            [
-                'customer_id' => 1422,
-                'name' => 'HECTOR ALBERTO CHAVEZ ZAVALA'
-            ],
-            [
-                'customer_id' => 1428,
-                'name' => 'Abraham  Misael  '
-            ],
-            [
-                'customer_id' => 1417,
-                'name' => 'Omar  Reyna Gomez  '
-            ],
-            [
-                'customer_id' => 1438,
-                'name' => 'Adam  Zepeda '
-            ],
-            [
-                'customer_id' => 1440,
-                'name' => 'Jorge Gilberto  Martinez  Villa'
-            ],
-            [
-                'customer_id' => 1444,
-                'name' => 'Azael  Tapia  Granillo'
-            ],
-            [
-                'customer_id' => 1450,
-                'name' => 'arturo  rodriguez nino niño'
-            ],
-            [
-                'customer_id' => 1445,
-                'name' => 'Rodrigo  Alatorrre  Farfán'
-            ],
-            [
-                'customer_id' => 1446,
-                'name' => 'Andrés  Castillo '
-            ],
-            [
-                'customer_id' => 1449,
-                'name' => 'Edilberto Alfaro  García'
-            ],
-            [
-                'customer_id' => 1451,
-                'name' => 'Brandon  Dávalos  campos'
-            ],
-            [
-                'customer_id' => 1453,
-                'name' => 'Antonio  Nobelo  Baliño'
-            ],
-            [
-                'customer_id' => 1433,
-                'name' => 'Jose  Gómez '
-            ],
-            [
-                'customer_id' => 1454,
-                'name' => 'Alan  Esau '
-            ],
-            [
-                'customer_id' => 1456,
-                'name' => 'Ricardo  Montero  Cortés'
-            ],
-            [
-                'customer_id' => 1457,
-                'name' => 'JEAN CARLOS CABRERA '
-            ],
-            [
-                'customer_id' => 1485,
-                'name' => 'Christopher  Vázquez '
-            ],
-            [
-                'customer_id' => 1458,
-                'name' => 'Antonio Antonio '
-            ],
-            [
-                'customer_id' => 1459,
-                'name' => 'Dennis Guerra '
-            ],
-            [
-                'customer_id' => 1463,
-                'name' => 'Johan Fernando  Montoya  Hinojosa'
-            ],
-            [
-                'customer_id' => 1464,
-                'name' => 'Víctor  Montiel '
-            ],
-            [
-                'customer_id' => 1460,
-                'name' => 'Alejandro  Ortiz Guerrero Guerrero'
-            ],
-            [
-                'customer_id' => 1461,
-                'name' => 'Alan  Reyes '
-            ],
-            [
-                'customer_id' => 1462,
-                'name' => 'Jesús Exel  Cervantes  García'
-            ],
-            [
-                'customer_id' => 1476,
-                'name' => 'Isaac  Muñiz '
-            ],
-            [
-                'customer_id' => 1468,
-                'name' => 'Luis Iván  angon  alvarez'
-            ],
-            [
-                'customer_id' => 1466,
-                'name' => 'Edgar  Muñoz  Salado'
-            ],
-            [
-                'customer_id' => 1469,
-                'name' => 'Saul  Caballero  Herrera'
-            ],
-            [
-                'customer_id' => 1470,
-                'name' => 'Oscar  Osvaldo '
-            ],
-            [
-                'customer_id' => 1472,
-                'name' => 'Kevin  del águila '
-            ],
-            [
-                'customer_id' => 1471,
-                'name' => 'Jorge Diego  Centeno '
-            ],
-            [
-                'customer_id' => 1473,
-                'name' => 'José Javier  Vilchis  Escobar'
-            ],
-            [
-                'customer_id' => 1474,
-                'name' => 'Fernando  garcia  arguelles'
-            ],
-            [
-                'customer_id' => 1475,
-                'name' => 'Enrique  Temporal  Martinez'
-            ],
-            [
-                'customer_id' => 1484,
-                'name' => 'Juan lino  llanos  gutierrez'
-            ],
-            [
-                'customer_id' => 1434,
-                'name' => 'Antonio  garcia  andrade'
-            ],
-            [
-                'customer_id' => 1325,
-                'name' => 'HORARIO JUAREZ '
-            ],
-            [
-                'customer_id' => 1322,
-                'name' => 'Enrique  Flores  Mejía'
-            ],
-            [
-                'customer_id' => 1335,
-                'name' => 'GABRIEL NULL '
-            ],
-            [
-                'customer_id' => 1320,
-                'name' => 'Alexis Peña '
-            ],
-            [
-                'customer_id' => 1328,
-                'name' => 'MIGUEL IVAN CLAUDIO MATIAS'
-            ],
-            [
-                'customer_id' => 1323,
-                'name' => 'Bruno Jareth '
-            ],
-            [
-                'customer_id' => 1326,
-                'name' => 'Alejandro  Ponce  Sanchez'
-            ],
-            [
-                'customer_id' => 1331,
-                'name' => 'ARTURO HERNANDEZ FABIAN'
-            ],
-            [
-                'customer_id' => 1343,
-                'name' => 'Feliciano  león  Hernández'
-            ],
-            [
-                'customer_id' => 1321,
-                'name' => 'Miguel  Luna '
-            ],
-            [
-                'customer_id' => 1327,
-                'name' => 'JOSE MANUEL BONILLA DURAN'
-            ],
-            [
-                'customer_id' => 1329,
-                'name' => 'juan carlos '
-            ],
-            [
-                'customer_id' => 1336,
-                'name' => 'AARON SENTIES '
-            ],
-            [
-                'customer_id' => 1337,
-                'name' => 'Adolfo  Oloarte  Garcia'
-            ],
-            [
-                'customer_id' => 1355,
-                'name' => 'jonathan  olivares '
-            ],
-            [
-                'customer_id' => 1349,
-                'name' => 'BRANDON ALEJANDRO GARCIA PARRA'
-            ],
-            [
-                'customer_id' => 1359,
-                'name' => 'Fernando  Lucero  Villagomez'
-            ],
-            [
-                'customer_id' => 1360,
-                'name' => 'Guillermo  Ramirez  León'
-            ],
-            [
-                'customer_id' => 1361,
-                'name' => 'ivan eduardo perez chavez'
-            ],
-            [
-                'customer_id' => 1363,
-                'name' => 'Carlos  Méndez '
-            ],
-            [
-                'customer_id' => 1370,
-                'name' => 'raniel jose mandez avila'
-            ],
-            [
-                'customer_id' => 1374,
-                'name' => 'javier null '
-            ],
-            [
-                'customer_id' => 1382,
-                'name' => 'HECTOR GABRIEL BECERRA RIVERA'
-            ],
-            [
-                'customer_id' => 1375,
-                'name' => 'Mario SALAZAR '
-            ],
-            [
-                'customer_id' => 1378,
-                'name' => 'Omar  Betanzos '
-            ],
-            [
-                'customer_id' => 1338,
-                'name' => 'angelica rosas vargas '
-            ],
-            [
-                'customer_id' => 1478,
-                'name' => 'Javier  estrada  Sánchez'
-            ],
-            [
-                'customer_id' => 1351,
-                'name' => 'LEONARDO GONZALEZ CAMACHO'
-            ],
-            [
-                'customer_id' => 1342,
-                'name' => 'MIGUEL SALAZAR '
-            ],
-            [
-                'customer_id' => 1333,
-                'name' => 'Alexis Aranda '
-            ],
-            [
-                'customer_id' => 1425,
-                'name' => 'Leonel  NULL '
-            ],
-            [
-                'customer_id' => 1437,
-                'name' => 'Yair  alan '
-            ],
-            [
-                'customer_id' => 1441,
-                'name' => 'Luis Daniel  Resendiz  Molina'
-            ],
-            [
-                'customer_id' => 1436,
-                'name' => 'Luis Alberto  Arana '
-            ],
-            [
-                'customer_id' => 1368,
-                'name' => 'JOSE NULL '
-            ],
-            [
-                'customer_id' => 1369,
-                'name' => 'Issac  Santos  Gómez'
-            ],
-            [
-                'customer_id' => 1357,
-                'name' => 'luis fernando vargas arellano'
-            ],
-            [
-                'customer_id' => 1339,
-                'name' => 'DANIEL HERNANDEZ '
-            ],
-            [
-                'customer_id' => 1427,
-                'name' => 'PEDRO MORAN '
-            ],
-            [
-                'customer_id' => 1435,
-                'name' => 'Alonso Manuel  Estrada  Vicencio'
-            ],
-            [
-                'customer_id' => 1439,
-                'name' => 'Dioney Carlos  Gutierrez  Mora'
-            ],
-            [
-                'customer_id' => 1389,
-                'name' => 'DIEGO NULL '
-            ],
-            [
-                'customer_id' => 1352,
-                'name' => 'julios cersar calderon ubaldo'
-            ],
-            [
-                'customer_id' => 1358,
-                'name' => 'ABDIEL GUARNEROS '
-            ],
-            [
-                'customer_id' => 1365,
-                'name' => 'Rau  lcarballo  nava'
-            ],
-            [
-                'customer_id' => 1366,
-                'name' => 'VIVIANA NULL '
-            ],
-            [
-                'customer_id' => 1371,
-                'name' => 'ARETHA FERNANDA GARCIA ALCANTARA'
-            ],
-            [
-                'customer_id' => 1376,
-                'name' => 'NOE SANTOS ORTEGA'
-            ],
-            [
-                'customer_id' => 1377,
-                'name' => 'ricardo rivera garza'
-            ],
-            [
-                'customer_id' => 1381,
-                'name' => 'Ana patricia  Villalobos  Rodriguez'
-            ],
-            [
-                'customer_id' => 1390,
-                'name' => 'Adrian Alberto  Rosas  Rosales'
-            ],
-            [
-                'customer_id' => 1391,
-                'name' => 'bryan alberto flores de dios'
-            ],
-            [
-                'customer_id' => 1386,
-                'name' => 'Sergio ramcarro '
-            ],
-            [
-                'customer_id' => 1379,
-                'name' => 'Yeshua  Martínez  Guerrero'
-            ],
-            [
-                'customer_id' => 1367,
-                'name' => 'Juan Carlos  García '
-            ],
-            [
-                'customer_id' => 1442,
-                'name' => 'Julio Cesar  Lavis  García'
-            ],
-            [
-                'customer_id' => 1443,
-                'name' => 'Axel  Itzael '
-            ],
-            [
-                'customer_id' => 1447,
-                'name' => 'Carlos Alberto  Reyes  Nicolas'
-            ],
-            [
-                'customer_id' => 1483,
-                'name' => 'Juan  Castillo '
-            ],
-            [
-                'customer_id' => 1353,
-                'name' => 'Rosa maria  hernandez  santos'
-            ],
-            [
-                'customer_id' => 1373,
-                'name' => 'Ricardo  Vazquez  Moreno'
-            ],
-            [
-                'customer_id' => 1455,
-                'name' => 'Juan  Gabriel '
-            ],
-            [
-                'customer_id' => 1364,
-                'name' => 'RAFAEL DE LA LUZ '
-            ],
-            [
-                'customer_id' => 1347,
-                'name' => 'EMILIO CRUZ GARCIA'
-            ],
-            [
-                'customer_id' => 1481,
-                'name' => 'Perla  Guerra  Guerrero'
-            ],
-            [
-                'customer_id' => 1372,
-                'name' => 'GONZALO MUÑOZ '
-            ],
-            [
-                'customer_id' => 1426,
-                'name' => 'Carla Mayte  Muñoz Villazteca  '
-            ],
-            [
-                'customer_id' => 1362,
-                'name' => 'Brandon Yahir Olivares Lara Olivares  Lara'
-            ],
-            [
-                'customer_id' => 1423,
-                'name' => 'victor martinez bedolla'
-            ],
+            ['customer_id' => 1341, 'name' => 'JORGE ANGEL', 'last_name' => 'SANCHEZ', 'maiden_name' => 'ARELLANO', 'full_name' => 'JORGE ANGEL SANCHEZ ARELLANO'],
+            ['customer_id' => 1348, 'name' => 'KEVIN ALEXIS', 'last_name' => 'SANCHEZ', 'maiden_name' => 'SAMARRIPA', 'full_name' => 'KEVIN ALEXIS SANCHEZ SAMARRIPA'],
+            ['customer_id' => 1345, 'name' => 'DIEGO FERNANDO', 'last_name' => 'HERNANDEZ', 'maiden_name' => 'PEREZ', 'full_name' => 'DIEGO FERNANDO HERNANDEZ PEREZ'],
+            ['customer_id' => 1383, 'name' => 'GUILLERMO', 'last_name' => 'RICARDO', 'maiden_name' => '', 'full_name' => 'GUILLERMO RICARDO '],
+            ['customer_id' => 1387, 'name' => 'SAMUEL', 'last_name' => 'REYES', 'maiden_name' => 'MAXIMINO', 'full_name' => 'SAMUEL REYES MAXIMINO'],
+            ['customer_id' => 1395, 'name' => 'david alejandro', 'last_name' => 'jacobo', 'maiden_name' => 'marquez', 'full_name' => 'david alejandro jacobo marquez'],
+            ['customer_id' => 1396, 'name' => 'Jose luis ', 'last_name' => 'salazar ', 'maiden_name' => 'mares', 'full_name' => 'Jose luis  salazar  mares'],
+            ['customer_id' => 1398, 'name' => 'Luis Fernando ', 'last_name' => 'San Pedro ', 'maiden_name' => 'rivera', 'full_name' => 'Luis Fernando  San Pedro  rivera'],
+            ['customer_id' => 1346, 'name' => 'David ', 'last_name' => 'Cortes García', 'maiden_name' => 'García', 'full_name' => 'David  Cortes García García'],
+            ['customer_id' => 1350, 'name' => 'Daniel Eduardo ', 'last_name' => 'Gallardo ', 'maiden_name' => 'Ceja', 'full_name' => 'Daniel Eduardo  Gallardo  Ceja'],
+            ['customer_id' => 1401, 'name' => 'LUIS GERARDO ', 'last_name' => 'ORTA ESCOBAR ', 'maiden_name' => '', 'full_name' => 'LUIS GERARDO  ORTA ESCOBAR  '],
+            ['customer_id' => 1404, 'name' => 'Leonardo ', 'last_name' => 'Medina Roldan ', 'maiden_name' => '', 'full_name' => 'Leonardo  Medina Roldan  '],
+            ['customer_id' => 1482, 'name' => 'Rafael ', 'last_name' => 'Arano ', 'maiden_name' => 'castañeda', 'full_name' => 'Rafael  Arano  castañeda'],
+            ['customer_id' => 1407, 'name' => 'Ricardo Dario', 'last_name' => 'Luna Camacho', 'maiden_name' => '', 'full_name' => 'Ricardo Dario Luna Camacho '],
+            ['customer_id' => 1408, 'name' => 'Carlos ', 'last_name' => 'sanchez salazar ', 'maiden_name' => '', 'full_name' => 'Carlos  sanchez salazar  '],
+            ['customer_id' => 1372, 'name' => 'GONZALO', 'last_name' => 'MUÑOZ', 'maiden_name' => '', 'full_name' => 'GONZALO MUÑOZ '],
+            ['customer_id' => 1409, 'name' => 'Luis ', 'last_name' => 'Alberto ', 'maiden_name' => '', 'full_name' => 'Luis  Alberto  '],
+            ['customer_id' => 1448, 'name' => 'Mauricio ', 'last_name' => 'Sánchez', 'maiden_name' => '', 'full_name' => 'Mauricio  Sánchez '],
+            ['customer_id' => 1422, 'name' => 'HECTOR ALBERTO', 'last_name' => 'CHAVEZ', 'maiden_name' => 'ZAVALA', 'full_name' => 'HECTOR ALBERTO CHAVEZ ZAVALA'],
+            ['customer_id' => 1428, 'name' => 'Abraham ', 'last_name' => 'Misael ', 'maiden_name' => '', 'full_name' => 'Abraham  Misael  '],
+            ['customer_id' => 1410, 'name' => 'Gabriel Rodrigo  ', 'last_name' => 'Mancera Gonzalez', 'maiden_name' => '', 'full_name' => 'Gabriel Rodrigo   Mancera Gonzalez '],
+            ['customer_id' => 1414, 'name' => 'Diego Rodrigo ', 'last_name' => 'lomas coronado ', 'maiden_name' => '', 'full_name' => 'Diego Rodrigo  lomas coronado  '],
+            ['customer_id' => 1416, 'name' => 'juan', 'last_name' => 'rodriguez', 'maiden_name' => '', 'full_name' => 'juan rodriguez '],
+            ['customer_id' => 1417, 'name' => 'Omar ', 'last_name' => 'Reyna Gomez ', 'maiden_name' => '', 'full_name' => 'Omar  Reyna Gomez  '],
+            ['customer_id' => 1487, 'name' => 'Mario armando ', 'last_name' => 'coronel ', 'maiden_name' => '', 'full_name' => 'Mario armando  coronel  '],
+            ['customer_id' => 1492, 'name' => 'Ian Imanol', 'last_name' => ' Guzman Barrera ', 'maiden_name' => '', 'full_name' => 'Ian Imanol  Guzman Barrera  '],
+            ['customer_id' => 1495, 'name' => 'Gabriel Alejandro', 'last_name' => ' Aguilar Castro ', 'maiden_name' => '', 'full_name' => 'Gabriel Alejandro  Aguilar Castro  '],
+            ['customer_id' => 1622, 'name' => 'Atomic ', 'last_name' => 'man ', 'maiden_name' => '', 'full_name' => 'Atomic  man  '],
+            ['customer_id' => 1479, 'name' => 'juan carlos ', 'last_name' => 'hernandez', 'maiden_name' => 'campos', 'full_name' => 'juan carlos  hernandez campos'],
+            ['customer_id' => 1438, 'name' => 'Adam ', 'last_name' => 'Zepeda', 'maiden_name' => '', 'full_name' => 'Adam  Zepeda '],
+            ['customer_id' => 1440, 'name' => 'Jorge Gilberto ', 'last_name' => 'Martinez ', 'maiden_name' => 'Villa', 'full_name' => 'Jorge Gilberto  Martinez  Villa'],
+            ['customer_id' => 1444, 'name' => 'Azael ', 'last_name' => 'Tapia ', 'maiden_name' => 'Granillo', 'full_name' => 'Azael  Tapia  Granillo'],
+            ['customer_id' => 1624, 'name' => 'Luis Alfredo ', 'last_name' => 'Terrero ', 'maiden_name' => '', 'full_name' => 'Luis Alfredo  Terrero  '],
+            ['customer_id' => 1660, 'name' => 'Ulises Aurelio ', 'last_name' => 'Franco Hernández ', 'maiden_name' => '', 'full_name' => 'Ulises Aurelio  Franco Hernández  '],
+            ['customer_id' => 1450, 'name' => 'arturo ', 'last_name' => 'rodriguez nino', 'maiden_name' => 'niño', 'full_name' => 'arturo  rodriguez nino niño'],
+            ['customer_id' => 1569, 'name' => 'Leonel ', 'last_name' => 'Varela ', 'maiden_name' => '', 'full_name' => 'Leonel  Varela  '],
+            ['customer_id' => 1467, 'name' => 'David Daniel ', 'last_name' => 'Cicero Picazo ', 'maiden_name' => '', 'full_name' => 'David Daniel  Cicero Picazo  '],
+            ['customer_id' => 1446, 'name' => 'Andrés ', 'last_name' => 'Castillo', 'maiden_name' => '', 'full_name' => 'Andrés  Castillo '],
+            ['customer_id' => 1449, 'name' => 'Edilberto', 'last_name' => 'Alfaro ', 'maiden_name' => 'García', 'full_name' => 'Edilberto Alfaro  García'],
+            ['customer_id' => 1451, 'name' => 'Brandon ', 'last_name' => 'Dávalos ', 'maiden_name' => 'campos', 'full_name' => 'Brandon  Dávalos  campos'],
+            ['customer_id' => 1453, 'name' => 'Antonio ', 'last_name' => 'Nobelo ', 'maiden_name' => 'Baliño', 'full_name' => 'Antonio  Nobelo  Baliño'],
+            ['customer_id' => 1489, 'name' => 'Omar ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Omar  NULL '],
+            ['customer_id' => 1493, 'name' => 'Oscar Uriel ', 'last_name' => 'Rodriguez Guayuca ', 'maiden_name' => '', 'full_name' => 'Oscar Uriel  Rodriguez Guayuca  '],
+            ['customer_id' => 1496, 'name' => 'Alan Yael ', 'last_name' => 'Moreno ', 'maiden_name' => '', 'full_name' => 'Alan Yael  Moreno  '],
+            ['customer_id' => 1452, 'name' => 'Frankie Alexis ', 'last_name' => 'Nieto ', 'maiden_name' => 'Rodríguez', 'full_name' => 'Frankie Alexis  Nieto  Rodríguez'],
+            ['customer_id' => 1537, 'name' => 'Jose ', 'last_name' => 'Jimenez ', 'maiden_name' => '', 'full_name' => 'Jose  Jimenez  '],
+            ['customer_id' => 1521, 'name' => 'Manuel Alejandro ', 'last_name' => 'Garcia ', 'maiden_name' => 'Padilla', 'full_name' => 'Manuel Alejandro  Garcia  Padilla'],
+            ['customer_id' => 1540, 'name' => 'Mauricio ', 'last_name' => 'Osornio Rivera ', 'maiden_name' => '', 'full_name' => 'Mauricio  Osornio Rivera  '],
+            ['customer_id' => 1544, 'name' => 'Eber  ', 'last_name' => 'Ortiz Montes', 'maiden_name' => '', 'full_name' => 'Eber   Ortiz Montes '],
+            ['customer_id' => 1433, 'name' => 'Jose ', 'last_name' => 'Gómez', 'maiden_name' => '', 'full_name' => 'Jose  Gómez '],
+            ['customer_id' => 1581, 'name' => 'Genaro', 'last_name' => ' Nájera Hernández', 'maiden_name' => '', 'full_name' => 'Genaro  Nájera Hernández '],
+            ['customer_id' => 1454, 'name' => 'Alan ', 'last_name' => 'Esau', 'maiden_name' => '', 'full_name' => 'Alan  Esau '],
+            ['customer_id' => 1456, 'name' => 'Ricardo ', 'last_name' => 'Montero ', 'maiden_name' => 'Cortés', 'full_name' => 'Ricardo  Montero  Cortés'],
+            ['customer_id' => 1062, 'name' => 'MIGUEL ALEJANDRO', 'last_name' => 'SALAZAR', 'maiden_name' => 'MARQUEZ', 'full_name' => 'MIGUEL ALEJANDRO SALAZAR MARQUEZ'],
+            ['customer_id' => 1527, 'name' => 'Ramon ', 'last_name' => 'Santos ', 'maiden_name' => '', 'full_name' => 'Ramon  Santos  '],
+            ['customer_id' => 1457, 'name' => 'JEAN CARLOS', 'last_name' => 'CABRERA', 'maiden_name' => '', 'full_name' => 'JEAN CARLOS CABRERA '],
+            ['customer_id' => 1485, 'name' => 'Christopher ', 'last_name' => 'Vázquez', 'maiden_name' => '', 'full_name' => 'Christopher  Vázquez '],
+            ['customer_id' => 1498, 'name' => 'Servando ', 'last_name' => ' bautista guillermo', 'maiden_name' => '', 'full_name' => 'Servando   bautista guillermo '],
+            ['customer_id' => 1500, 'name' => 'irvin omar ', 'last_name' => 'hernandez martinez ', 'maiden_name' => '', 'full_name' => 'irvin omar  hernandez martinez  '],
+            ['customer_id' => 1504, 'name' => 'Edgar  ', 'last_name' => 'gonzalez zurroza', 'maiden_name' => '', 'full_name' => 'Edgar   gonzalez zurroza '],
+            ['customer_id' => 1509, 'name' => 'Paris ', 'last_name' => 'Herrera ', 'maiden_name' => '', 'full_name' => 'Paris  Herrera  '],
+            ['customer_id' => 1512, 'name' => 'Alain ', 'last_name' => 'Perez', 'maiden_name' => '', 'full_name' => 'Alain  Perez '],
+            ['customer_id' => 1526, 'name' => 'Daniel ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Daniel  NULL '],
+            ['customer_id' => 1458, 'name' => 'Antonio', 'last_name' => 'Antonio', 'maiden_name' => '', 'full_name' => 'Antonio Antonio '],
+            ['customer_id' => 1502, 'name' => 'Joshua ', 'last_name' => 'Gonzalez ', 'maiden_name' => '', 'full_name' => 'Joshua  Gonzalez  '],
+            ['customer_id' => 1511, 'name' => 'paulina ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'paulina  NULL '],
+            ['customer_id' => 1459, 'name' => 'Dennis', 'last_name' => 'Guerra', 'maiden_name' => '', 'full_name' => 'Dennis Guerra '],
+            ['customer_id' => 1463, 'name' => 'Johan Fernando ', 'last_name' => 'Montoya ', 'maiden_name' => 'Hinojosa', 'full_name' => 'Johan Fernando  Montoya  Hinojosa'],
+            ['customer_id' => 1464, 'name' => 'Víctor ', 'last_name' => 'Montiel', 'maiden_name' => '', 'full_name' => 'Víctor  Montiel '],
+            ['customer_id' => 1412, 'name' => 'Osvaldo ', 'last_name' => 'Montesinos Morales ', 'maiden_name' => '', 'full_name' => 'Osvaldo  Montesinos Morales  '],
+            ['customer_id' => 1460, 'name' => 'Alejandro ', 'last_name' => 'Ortiz Guerrero', 'maiden_name' => 'Guerrero', 'full_name' => 'Alejandro  Ortiz Guerrero Guerrero'],
+            ['customer_id' => 1461, 'name' => 'Alan ', 'last_name' => 'Reyes', 'maiden_name' => '', 'full_name' => 'Alan  Reyes '],
+            ['customer_id' => 1462, 'name' => 'Jesús Exel ', 'last_name' => 'Cervantes ', 'maiden_name' => 'García', 'full_name' => 'Jesús Exel  Cervantes  García'],
+            ['customer_id' => 1476, 'name' => 'Isaac ', 'last_name' => 'Muñiz', 'maiden_name' => '', 'full_name' => 'Isaac  Muñiz '],
+            ['customer_id' => 1468, 'name' => 'Luis Iván ', 'last_name' => 'angon ', 'maiden_name' => 'alvarez', 'full_name' => 'Luis Iván  angon  alvarez'],
+            ['customer_id' => 1466, 'name' => 'Edgar ', 'last_name' => 'Muñoz ', 'maiden_name' => 'Salado', 'full_name' => 'Edgar  Muñoz  Salado'],
+            ['customer_id' => 1644, 'name' => 'Diego ', 'last_name' => 'Null', 'maiden_name' => '', 'full_name' => 'Diego  Null '],
+            ['customer_id' => 1535, 'name' => 'Alfonso ', 'last_name' => 'Perez ', 'maiden_name' => '', 'full_name' => 'Alfonso  Perez  '],
+            ['customer_id' => 1529, 'name' => 'Rafael ', 'last_name' => 'duran ', 'maiden_name' => '', 'full_name' => 'Rafael  duran  '],
+            ['customer_id' => 1545, 'name' => 'Juan ', 'last_name' => 'rioja ', 'maiden_name' => '', 'full_name' => 'Juan  rioja  '],
+            ['customer_id' => 1546, 'name' => 'Mariana ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Mariana  NULL '],
+            ['customer_id' => 1548, 'name' => 'Rubén David ', 'last_name' => 'Salazar Arenas ', 'maiden_name' => '', 'full_name' => 'Rubén David  Salazar Arenas  '],
+            ['customer_id' => 1332, 'name' => 'CARLOS ALFREDO', 'last_name' => 'RODRIGUEZ', 'maiden_name' => 'ORELLAN', 'full_name' => 'CARLOS ALFREDO RODRIGUEZ ORELLAN'],
+            ['customer_id' => 1469, 'name' => 'Saul ', 'last_name' => 'Caballero ', 'maiden_name' => 'Herrera', 'full_name' => 'Saul  Caballero  Herrera'],
+            ['customer_id' => 1470, 'name' => 'Oscar ', 'last_name' => 'Osvaldo', 'maiden_name' => '', 'full_name' => 'Oscar  Osvaldo '],
+            ['customer_id' => 1471, 'name' => 'Jorge Diego ', 'last_name' => 'Centeno', 'maiden_name' => '', 'full_name' => 'Jorge Diego  Centeno '],
+            ['customer_id' => 1473, 'name' => 'José Javier ', 'last_name' => 'Vilchis ', 'maiden_name' => 'Escobar', 'full_name' => 'José Javier  Vilchis  Escobar'],
+            ['customer_id' => 1474, 'name' => 'Fernando ', 'last_name' => 'garcia ', 'maiden_name' => 'arguelles', 'full_name' => 'Fernando  garcia  arguelles'],
+            ['customer_id' => 1525, 'name' => 'Gaspar ', 'last_name' => 'Dario ', 'maiden_name' => '', 'full_name' => 'Gaspar  Dario  '],
+            ['customer_id' => 1484, 'name' => 'Juan lino ', 'last_name' => 'llanos ', 'maiden_name' => 'gutierrez', 'full_name' => 'Juan lino  llanos  gutierrez'],
+            ['customer_id' => 1513, 'name' => 'Angel Uriel ', 'last_name' => 'Aguilar rubio ', 'maiden_name' => '', 'full_name' => 'Angel Uriel  Aguilar rubio  '],
+            ['customer_id' => 1524, 'name' => 'Cesar', 'last_name' => 'Najera Corona', 'maiden_name' => '', 'full_name' => 'Cesar Najera Corona '],
+            ['customer_id' => 1434, 'name' => 'Antonio ', 'last_name' => 'garcia ', 'maiden_name' => 'andrade', 'full_name' => 'Antonio  garcia  andrade'],
+            ['customer_id' => 1325, 'name' => 'HORARIO', 'last_name' => 'JUAREZ', 'maiden_name' => '', 'full_name' => 'HORARIO JUAREZ '],
+            ['customer_id' => 1322, 'name' => 'Enrique ', 'last_name' => 'Flores ', 'maiden_name' => 'Mejía', 'full_name' => 'Enrique  Flores  Mejía'],
+            ['customer_id' => 1335, 'name' => 'GABRIEL', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'GABRIEL NULL '],
+            ['customer_id' => 1320, 'name' => 'Alexis', 'last_name' => 'Peña', 'maiden_name' => '', 'full_name' => 'Alexis Peña '],
+            ['customer_id' => 1326, 'name' => 'Alejandro ', 'last_name' => 'Ponce ', 'maiden_name' => 'Sanchez', 'full_name' => 'Alejandro  Ponce  Sanchez'],
+            ['customer_id' => 1328, 'name' => 'MIGUEL IVAN', 'last_name' => 'CLAUDIO', 'maiden_name' => 'MATIAS', 'full_name' => 'MIGUEL IVAN CLAUDIO MATIAS'],
+            ['customer_id' => 1323, 'name' => 'Bruno', 'last_name' => 'Jareth', 'maiden_name' => '', 'full_name' => 'Bruno Jareth '],
+            ['customer_id' => 1331, 'name' => 'ARTURO', 'last_name' => 'HERNANDEZ', 'maiden_name' => 'FABIAN', 'full_name' => 'ARTURO HERNANDEZ FABIAN'],
+            ['customer_id' => 1343, 'name' => 'Feliciano ', 'last_name' => 'león ', 'maiden_name' => 'Hernández', 'full_name' => 'Feliciano  león  Hernández'],
+            ['customer_id' => 1321, 'name' => 'Miguel ', 'last_name' => 'Luna', 'maiden_name' => '', 'full_name' => 'Miguel  Luna '],
+            ['customer_id' => 1327, 'name' => 'JOSE MANUEL', 'last_name' => 'BONILLA', 'maiden_name' => 'DURAN', 'full_name' => 'JOSE MANUEL BONILLA DURAN'],
+            ['customer_id' => 1329, 'name' => 'juan', 'last_name' => 'carlos', 'maiden_name' => '', 'full_name' => 'juan carlos '],
+            ['customer_id' => 1337, 'name' => 'Adolfo ', 'last_name' => 'Oloarte ', 'maiden_name' => 'Garcia', 'full_name' => 'Adolfo  Oloarte  Garcia'],
+            ['customer_id' => 1355, 'name' => 'jonathan ', 'last_name' => 'olivares', 'maiden_name' => '', 'full_name' => 'jonathan  olivares '],
+            ['customer_id' => 1349, 'name' => 'BRANDON ALEJANDRO', 'last_name' => 'GARCIA', 'maiden_name' => 'PARRA', 'full_name' => 'BRANDON ALEJANDRO GARCIA PARRA'],
+            ['customer_id' => 1359, 'name' => 'Fernando ', 'last_name' => 'Lucero ', 'maiden_name' => 'Villagomez', 'full_name' => 'Fernando  Lucero  Villagomez'],
+            ['customer_id' => 1360, 'name' => 'Guillermo ', 'last_name' => 'Ramirez ', 'maiden_name' => 'León', 'full_name' => 'Guillermo  Ramirez  León'],
+            ['customer_id' => 1361, 'name' => 'ivan eduardo', 'last_name' => 'perez', 'maiden_name' => 'chavez', 'full_name' => 'ivan eduardo perez chavez'],
+            ['customer_id' => 1363, 'name' => 'Carlos ', 'last_name' => 'Méndez', 'maiden_name' => '', 'full_name' => 'Carlos  Méndez '],
+            ['customer_id' => 1370, 'name' => 'raniel jose', 'last_name' => 'mandez', 'maiden_name' => 'avila', 'full_name' => 'raniel jose mandez avila'],
+            ['customer_id' => 1374, 'name' => 'javier', 'last_name' => 'null', 'maiden_name' => '', 'full_name' => 'javier null '],
+            ['customer_id' => 1382, 'name' => 'HECTOR GABRIEL', 'last_name' => 'BECERRA', 'maiden_name' => 'RIVERA', 'full_name' => 'HECTOR GABRIEL BECERRA RIVERA'],
+            ['customer_id' => 1375, 'name' => 'Mario', 'last_name' => 'SALAZAR', 'maiden_name' => '', 'full_name' => 'Mario SALAZAR '],
+            ['customer_id' => 1378, 'name' => 'Omar ', 'last_name' => 'Betanzos', 'maiden_name' => '', 'full_name' => 'Omar  Betanzos '],
+            ['customer_id' => 1380, 'name' => 'CARLOS ALEXIS', 'last_name' => 'CATARINO', 'maiden_name' => 'ALMANZA', 'full_name' => 'CARLOS ALEXIS CATARINO ALMANZA'],
+            ['customer_id' => 1338, 'name' => 'angelica rosas', 'last_name' => 'vargas', 'maiden_name' => '', 'full_name' => 'angelica rosas vargas '],
+            ['customer_id' => 1478, 'name' => 'Javier ', 'last_name' => 'estrada ', 'maiden_name' => 'Sánchez', 'full_name' => 'Javier  estrada  Sánchez'],
+            ['customer_id' => 1351, 'name' => 'LEONARDO', 'last_name' => 'GONZALEZ', 'maiden_name' => 'CAMACHO', 'full_name' => 'LEONARDO GONZALEZ CAMACHO'],
+            ['customer_id' => 1342, 'name' => 'MIGUEL', 'last_name' => 'SALAZAR', 'maiden_name' => '', 'full_name' => 'MIGUEL SALAZAR '],
+            ['customer_id' => 1333, 'name' => 'Alexis', 'last_name' => 'Aranda', 'maiden_name' => '', 'full_name' => 'Alexis Aranda '],
+            ['customer_id' => 1334, 'name' => 'LUIS ALBERTO', 'last_name' => 'MARTINEZ', 'maiden_name' => 'OLVERA', 'full_name' => 'LUIS ALBERTO MARTINEZ OLVERA'],
+            ['customer_id' => 1425, 'name' => 'Leonel ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Leonel  NULL '],
+            ['customer_id' => 1437, 'name' => 'Yair ', 'last_name' => 'alan', 'maiden_name' => '', 'full_name' => 'Yair  alan '],
+            ['customer_id' => 1441, 'name' => 'Luis Daniel ', 'last_name' => 'Resendiz ', 'maiden_name' => 'Molina', 'full_name' => 'Luis Daniel  Resendiz  Molina'],
+            ['customer_id' => 1354, 'name' => 'jesus', 'last_name' => 'martinez', 'maiden_name' => 'torres', 'full_name' => 'jesus martinez torres'],
+            ['customer_id' => 1436, 'name' => 'Luis Alberto ', 'last_name' => 'Arana', 'maiden_name' => '', 'full_name' => 'Luis Alberto  Arana '],
+            ['customer_id' => 1368, 'name' => 'JOSE', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'JOSE NULL '],
+            ['customer_id' => 1369, 'name' => 'Issac ', 'last_name' => 'Santos ', 'maiden_name' => 'Gómez', 'full_name' => 'Issac  Santos  Gómez'],
+            ['customer_id' => 1357, 'name' => 'luis fernando', 'last_name' => 'vargas', 'maiden_name' => 'arellano', 'full_name' => 'luis fernando vargas arellano'],
+            ['customer_id' => 1339, 'name' => 'DANIEL', 'last_name' => 'HERNANDEZ', 'maiden_name' => '', 'full_name' => 'DANIEL HERNANDEZ '],
+            ['customer_id' => 1427, 'name' => 'PEDRO', 'last_name' => 'MORAN', 'maiden_name' => '', 'full_name' => 'PEDRO MORAN '],
+            ['customer_id' => 1435, 'name' => 'Alonso Manuel ', 'last_name' => 'Estrada ', 'maiden_name' => 'Vicencio', 'full_name' => 'Alonso Manuel  Estrada  Vicencio'],
+            ['customer_id' => 1406, 'name' => 'Luis', 'last_name' => 'Gerardo Santillan ', 'maiden_name' => '', 'full_name' => 'Luis Gerardo Santillan  '],
+            ['customer_id' => 1439, 'name' => 'Dioney Carlos ', 'last_name' => 'Gutierrez ', 'maiden_name' => 'Mora', 'full_name' => 'Dioney Carlos  Gutierrez  Mora'],
+            ['customer_id' => 1389, 'name' => 'DIEGO', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'DIEGO NULL '],
+            ['customer_id' => 1394, 'name' => 'José Luis', 'last_name' => 'verá ', 'maiden_name' => 'molina', 'full_name' => 'José Luis verá  molina'],
+            ['customer_id' => 1352, 'name' => 'julios cersar', 'last_name' => 'calderon', 'maiden_name' => 'ubaldo', 'full_name' => 'julios cersar calderon ubaldo'],
+            ['customer_id' => 1358, 'name' => 'ABDIEL', 'last_name' => 'GUARNEROS', 'maiden_name' => '', 'full_name' => 'ABDIEL GUARNEROS '],
+            ['customer_id' => 1365, 'name' => 'Rau ', 'last_name' => 'lcarballo ', 'maiden_name' => 'nava', 'full_name' => 'Rau  lcarballo  nava'],
+            ['customer_id' => 1366, 'name' => 'VIVIANA', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'VIVIANA NULL '],
+            ['customer_id' => 1371, 'name' => 'ARETHA FERNANDA', 'last_name' => 'GARCIA', 'maiden_name' => 'ALCANTARA', 'full_name' => 'ARETHA FERNANDA GARCIA ALCANTARA'],
+            ['customer_id' => 1376, 'name' => 'NOE', 'last_name' => 'SANTOS', 'maiden_name' => 'ORTEGA', 'full_name' => 'NOE SANTOS ORTEGA'],
+            ['customer_id' => 1377, 'name' => 'ricardo', 'last_name' => 'rivera', 'maiden_name' => 'garza', 'full_name' => 'ricardo rivera garza'],
+            ['customer_id' => 1390, 'name' => 'Adrian Alberto ', 'last_name' => 'Rosas ', 'maiden_name' => 'Rosales', 'full_name' => 'Adrian Alberto  Rosas  Rosales'],
+            ['customer_id' => 1391, 'name' => 'bryan alberto', 'last_name' => 'flores', 'maiden_name' => 'de dios', 'full_name' => 'bryan alberto flores de dios'],
+            ['customer_id' => 1386, 'name' => 'Sergio', 'last_name' => 'ramcarro', 'maiden_name' => '', 'full_name' => 'Sergio ramcarro '],
+            ['customer_id' => 1392, 'name' => 'PEDRO ENRIQUE', 'last_name' => 'INIESTA', 'maiden_name' => 'CARRASCO', 'full_name' => 'PEDRO ENRIQUE INIESTA CARRASCO'],
+            ['customer_id' => 1393, 'name' => 'RICARDO', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'RICARDO NULL '],
+            ['customer_id' => 1400, 'name' => 'jorge', 'last_name' => 'alejandro', 'maiden_name' => '', 'full_name' => 'jorge alejandro '],
+            ['customer_id' => 1402, 'name' => 'Carlos Miguel ', 'last_name' => 'Villaseca ', 'maiden_name' => '', 'full_name' => 'Carlos Miguel  Villaseca  '],
+            ['customer_id' => 1403, 'name' => 'Alejandro ', 'last_name' => 'Ortiz ', 'maiden_name' => 'Guerrero ', 'full_name' => 'Alejandro  Ortiz  Guerrero '],
+            ['customer_id' => 1379, 'name' => 'Yeshua ', 'last_name' => 'Martínez ', 'maiden_name' => 'Guerrero', 'full_name' => 'Yeshua  Martínez  Guerrero'],
+            ['customer_id' => 1367, 'name' => 'Juan Carlos ', 'last_name' => 'García', 'maiden_name' => '', 'full_name' => 'Juan Carlos  García '],
+            ['customer_id' => 1442, 'name' => 'Julio Cesar ', 'last_name' => 'Lavis ', 'maiden_name' => 'García', 'full_name' => 'Julio Cesar  Lavis  García'],
+            ['customer_id' => 1443, 'name' => 'Axel ', 'last_name' => 'Itzael', 'maiden_name' => '', 'full_name' => 'Axel  Itzael '],
+            ['customer_id' => 1447, 'name' => 'Carlos Alberto ', 'last_name' => 'Reyes ', 'maiden_name' => 'Nicolas', 'full_name' => 'Carlos Alberto  Reyes  Nicolas'],
+            ['customer_id' => 1384, 'name' => 'ALAN MICHEL', 'last_name' => 'MARTINEZ', 'maiden_name' => 'MEJIA', 'full_name' => 'ALAN MICHEL MARTINEZ MEJIA'],
+            ['customer_id' => 1477, 'name' => 'Yair', 'last_name' => 'Barrientos', 'maiden_name' => '', 'full_name' => 'Yair Barrientos '],
+            ['customer_id' => 1483, 'name' => 'Juan ', 'last_name' => 'Castillo', 'maiden_name' => '', 'full_name' => 'Juan  Castillo '],
+            ['customer_id' => 1542, 'name' => 'Luis ', 'last_name' => 'perez ', 'maiden_name' => '', 'full_name' => 'Luis  perez  '],
+            ['customer_id' => 1516, 'name' => 'Demian Omar ', 'last_name' => 'Ortiz Flores ', 'maiden_name' => '', 'full_name' => 'Demian Omar  Ortiz Flores  '],
+            ['customer_id' => 1534, 'name' => 'Ulises Aaron  ', 'last_name' => 'Sosa Castillo', 'maiden_name' => '', 'full_name' => 'Ulises Aaron   Sosa Castillo '],
+            ['customer_id' => 1536, 'name' => 'Leonardo Molinero ', 'last_name' => 'Molinero ', 'maiden_name' => 'Facio ', 'full_name' => 'Leonardo Molinero  Molinero  Facio '],
+            ['customer_id' => 1490, 'name' => 'Brayan ', 'last_name' => 'Silva Flores ', 'maiden_name' => '', 'full_name' => 'Brayan  Silva Flores  '],
+            ['customer_id' => 1491, 'name' => 'Edgar ricardo ', 'last_name' => 'Arias hernandez ', 'maiden_name' => '', 'full_name' => 'Edgar ricardo  Arias hernandez  '],
+            ['customer_id' => 1497, 'name' => 'Carlos Alberto', 'last_name' => ' Leon Salazar ', 'maiden_name' => '', 'full_name' => 'Carlos Alberto  Leon Salazar  '],
+            ['customer_id' => 1501, 'name' => 'yahir de jesus ', 'last_name' => 'espina ', 'maiden_name' => '', 'full_name' => 'yahir de jesus  espina  '],
+            ['customer_id' => 1499, 'name' => 'Christian ', 'last_name' => 'Islas', 'maiden_name' => '', 'full_name' => 'Christian  Islas '],
+            ['customer_id' => 1506, 'name' => 'Luis Geovanni ', 'last_name' => 'Cruz Granados ', 'maiden_name' => '', 'full_name' => 'Luis Geovanni  Cruz Granados  '],
+            ['customer_id' => 1507, 'name' => 'Martinez Lopez', 'last_name' => ' Martinez Emanuel ', 'maiden_name' => '', 'full_name' => 'Martinez Lopez  Martinez Emanuel  '],
+            ['customer_id' => 1510, 'name' => 'Virginia ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Virginia  NULL '],
+            ['customer_id' => 1514, 'name' => 'Eduardo ', 'last_name' => 'Valverde Francisco ', 'maiden_name' => '', 'full_name' => 'Eduardo  Valverde Francisco  '],
+            ['customer_id' => 1515, 'name' => 'Arturo ', 'last_name' => 'Santillan ', 'maiden_name' => '', 'full_name' => 'Arturo  Santillan  '],
+            ['customer_id' => 1517, 'name' => 'Juan carlos ', 'last_name' => 'sandoval ', 'maiden_name' => '', 'full_name' => 'Juan carlos  sandoval  '],
+            ['customer_id' => 1519, 'name' => 'Hector ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Hector  NULL '],
+            ['customer_id' => 1523, 'name' => 'Yael ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Yael  NULL '],
+            ['customer_id' => 1522, 'name' => 'Javier ', 'last_name' => 'Rivera', 'maiden_name' => 'Zamudio', 'full_name' => 'Javier  Rivera Zamudio'],
+            ['customer_id' => 1530, 'name' => 'Jorge  ', 'last_name' => 'arcos', 'maiden_name' => '', 'full_name' => 'Jorge   arcos '],
+            ['customer_id' => 1531, 'name' => 'Reyli Gabriel ', 'last_name' => ' Nanco Cortez', 'maiden_name' => '', 'full_name' => 'Reyli Gabriel   Nanco Cortez '],
+            ['customer_id' => 1532, 'name' => 'Jun  ', 'last_name' => 'armando', 'maiden_name' => '', 'full_name' => 'Jun   armando '],
+            ['customer_id' => 1533, 'name' => 'Axcel ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Axcel  NULL '],
+            ['customer_id' => 1538, 'name' => 'Julio Daniel ', 'last_name' => 'Rodríguez Briones ', 'maiden_name' => '', 'full_name' => 'Julio Daniel  Rodríguez Briones  '],
+            ['customer_id' => 1539, 'name' => 'Joan Carlo ', 'last_name' => 'Hernández Vega ', 'maiden_name' => '', 'full_name' => 'Joan Carlo  Hernández Vega  '],
+            ['customer_id' => 1541, 'name' => 'Alejandro ', 'last_name' => 'martienez colin ', 'maiden_name' => '', 'full_name' => 'Alejandro  martienez colin  '],
+            ['customer_id' => 1543, 'name' => 'Gustavo ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Gustavo  NULL '],
+            ['customer_id' => 1505, 'name' => 'Raymundo Miguel ', 'last_name' => 'Santiago ', 'maiden_name' => 'Cruz ', 'full_name' => 'Raymundo Miguel  Santiago  Cruz '],
+            ['customer_id' => 1494, 'name' => 'Jose Fernando', 'last_name' => ' Cruz Garcia ', 'maiden_name' => '', 'full_name' => 'Jose Fernando  Cruz Garcia  '],
+            ['customer_id' => 1503, 'name' => 'Emmanuel ', 'last_name' => 'Sagrero ', 'maiden_name' => '', 'full_name' => 'Emmanuel  Sagrero  '],
+            ['customer_id' => 1518, 'name' => 'Carlos ', 'last_name' => 'Garcia ', 'maiden_name' => '', 'full_name' => 'Carlos  Garcia  '],
+            ['customer_id' => 1520, 'name' => 'Julio ', 'last_name' => 'Ramirez ', 'maiden_name' => '', 'full_name' => 'Julio  Ramirez  '],
+            ['customer_id' => 1547, 'name' => 'CARLOS RAÚL ', 'last_name' => 'ARMENTA CÓRDOVA ', 'maiden_name' => '', 'full_name' => 'CARLOS RAÚL  ARMENTA CÓRDOVA  '],
+            ['customer_id' => 1549, 'name' => 'Alexis Efrén ', 'last_name' => 'Maldonado Martínez ', 'maiden_name' => '', 'full_name' => 'Alexis Efrén  Maldonado Martínez  '],
+            ['customer_id' => 1551, 'name' => 'Jonatan Ventura', 'last_name' => 'Trejo rosas ', 'maiden_name' => '', 'full_name' => 'Jonatan Ventura Trejo rosas  '],
+            ['customer_id' => 1552, 'name' => 'Josue ', 'last_name' => 'Osorio Gutiérrez ', 'maiden_name' => '', 'full_name' => 'Josue  Osorio Gutiérrez  '],
+            ['customer_id' => 1555, 'name' => 'brandon ', 'last_name' => 'aldahir ', 'maiden_name' => '', 'full_name' => 'brandon  aldahir  '],
+            ['customer_id' => 1557, 'name' => 'RICARDO ', 'last_name' => 'MARTINEZ ', 'maiden_name' => 'CANO ', 'full_name' => 'RICARDO  MARTINEZ  CANO '],
+            ['customer_id' => 1559, 'name' => 'jonathan Saúl ', 'last_name' => 'Altamirano Sánchez ', 'maiden_name' => '', 'full_name' => 'jonathan Saúl  Altamirano Sánchez  '],
+            ['customer_id' => 1562, 'name' => 'René ', 'last_name' => 'Pablo ', 'maiden_name' => '', 'full_name' => 'René  Pablo  '],
+            ['customer_id' => 1571, 'name' => 'victor Manuel ', 'last_name' => 'valdez mata ', 'maiden_name' => '', 'full_name' => 'victor Manuel  valdez mata  '],
+            ['customer_id' => 1574, 'name' => 'Victor ', 'last_name' => 'Buitron ', 'maiden_name' => 'chaparro ', 'full_name' => 'Victor  Buitron  chaparro '],
+            ['customer_id' => 1579, 'name' => 'Eder ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Eder  NULL '],
+            ['customer_id' => 1580, 'name' => 'Aldo ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Aldo  NULL '],
+            ['customer_id' => 1583, 'name' => 'Omar ', 'last_name' => 'Eusebio ', 'maiden_name' => '', 'full_name' => 'Omar  Eusebio  '],
+            ['customer_id' => 1508, 'name' => 'Juan Carlos ', 'last_name' => 'Cuautle moyado ', 'maiden_name' => '', 'full_name' => 'Juan Carlos  Cuautle moyado  '],
+            ['customer_id' => 1566, 'name' => 'Alejandro Guadalupe ', 'last_name' => 'Barrera Hernández ', 'maiden_name' => '', 'full_name' => 'Alejandro Guadalupe  Barrera Hernández  '],
+            ['customer_id' => 1563, 'name' => 'Uriel ', 'last_name' => 'Vazquez Diaz ', 'maiden_name' => '', 'full_name' => 'Uriel  Vazquez Diaz  '],
+            ['customer_id' => 1553, 'name' => 'Irving David ', 'last_name' => 'Melchor Gutian ', 'maiden_name' => '', 'full_name' => 'Irving David  Melchor Gutian  '],
+            ['customer_id' => 1554, 'name' => 'Luis Felipe', 'last_name' => ' Martínez Chávez ', 'maiden_name' => '', 'full_name' => 'Luis Felipe  Martínez Chávez  '],
+            ['customer_id' => 1353, 'name' => 'Rosa maria ', 'last_name' => 'hernandez ', 'maiden_name' => 'santos', 'full_name' => 'Rosa maria  hernandez  santos'],
+            ['customer_id' => 1567, 'name' => 'Jesus Samuel ', 'last_name' => 'Camacho Guzman ', 'maiden_name' => '', 'full_name' => 'Jesus Samuel  Camacho Guzman  '],
+            ['customer_id' => 1556, 'name' => 'Raúl ', 'last_name' => 'Santigo morales ', 'maiden_name' => '', 'full_name' => 'Raúl  Santigo morales  '],
+            ['customer_id' => 1558, 'name' => 'Ricardo ', 'last_name' => 'Sanchez matias ', 'maiden_name' => '', 'full_name' => 'Ricardo  Sanchez matias  '],
+            ['customer_id' => 1575, 'name' => 'Jesus ', 'last_name' => 'manuel ', 'maiden_name' => '', 'full_name' => 'Jesus  manuel  '],
+            ['customer_id' => 1560, 'name' => 'Geovanni ', 'last_name' => 'Fernández ', 'maiden_name' => '', 'full_name' => 'Geovanni  Fernández  '],
+            ['customer_id' => 1564, 'name' => 'Juan Manuel ', 'last_name' => 'Contreras Santiago ', 'maiden_name' => '', 'full_name' => 'Juan Manuel  Contreras Santiago  '],
+            ['customer_id' => 1568, 'name' => 'Carlos ', 'last_name' => 'Clemente ', 'maiden_name' => '', 'full_name' => 'Carlos  Clemente  '],
+            ['customer_id' => 1595, 'name' => 'Alexis  ', 'last_name' => 'adonai', 'maiden_name' => '', 'full_name' => 'Alexis   adonai '],
+            ['customer_id' => 1572, 'name' => 'Brian ', 'last_name' => 'Rodríguez molares ', 'maiden_name' => '', 'full_name' => 'Brian  Rodríguez molares  '],
+            ['customer_id' => 1573, 'name' => 'Alfonso ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Alfonso  NULL '],
+            ['customer_id' => 1576, 'name' => 'Julio Cesar  ', 'last_name' => 'Zarate', 'maiden_name' => '', 'full_name' => 'Julio Cesar   Zarate '],
+            ['customer_id' => 1578, 'name' => 'Ángel arturo ', 'last_name' => 'Gutiérrez Galindo ', 'maiden_name' => '', 'full_name' => 'Ángel arturo  Gutiérrez Galindo  '],
+            ['customer_id' => 1584, 'name' => 'David ', 'last_name' => 'Duran ', 'maiden_name' => '', 'full_name' => 'David  Duran  '],
+            ['customer_id' => 1594, 'name' => 'Diego ', 'last_name' => 'Chavarría ', 'maiden_name' => '', 'full_name' => 'Diego  Chavarría  '],
+            ['customer_id' => 1585, 'name' => 'Ernesto ', 'last_name' => 'Null', 'maiden_name' => '', 'full_name' => 'Ernesto  Null '],
+            ['customer_id' => 1586, 'name' => 'Jonathan ', 'last_name' => 'León ', 'maiden_name' => '', 'full_name' => 'Jonathan  León  '],
+            ['customer_id' => 1565, 'name' => 'Carlos Felipe', 'last_name' => ' Espino viveros ', 'maiden_name' => '', 'full_name' => 'Carlos Felipe  Espino viveros  '],
+            ['customer_id' => 1596, 'name' => 'Alfredo ', 'last_name' => 'pelaez ', 'maiden_name' => 'Ramírez ', 'full_name' => 'Alfredo  pelaez  Ramírez '],
+            ['customer_id' => 1597, 'name' => 'Irving ', 'last_name' => 'Irving ', 'maiden_name' => '', 'full_name' => 'Irving  Irving  '],
+            ['customer_id' => 1598, 'name' => 'Uriel Alejandro ', 'last_name' => 'Gamez ', 'maiden_name' => 'Becerra ', 'full_name' => 'Uriel Alejandro  Gamez  Becerra '],
+            ['customer_id' => 1600, 'name' => 'María  ', 'last_name' => 'Isabel', 'maiden_name' => '', 'full_name' => 'María   Isabel '],
+            ['customer_id' => 1601, 'name' => 'REYNALDO JESUS ', 'last_name' => 'REYES ', 'maiden_name' => 'MARTINEZ ', 'full_name' => 'REYNALDO JESUS  REYES  MARTINEZ '],
+            ['customer_id' => 1602, 'name' => 'Diego Omar ', 'last_name' => 'Omar ', 'maiden_name' => '', 'full_name' => 'Diego Omar  Omar  '],
+            ['customer_id' => 1603, 'name' => 'ERNESTO ', 'last_name' => 'SANTIAGO ', 'maiden_name' => 'CELIS ', 'full_name' => 'ERNESTO  SANTIAGO  CELIS '],
+            ['customer_id' => 1582, 'name' => 'Alejandro Daniel ', 'last_name' => 'Segura Ramirez ', 'maiden_name' => '', 'full_name' => 'Alejandro Daniel  Segura Ramirez  '],
+            ['customer_id' => 1628, 'name' => 'David ', 'last_name' => 'Curiel ', 'maiden_name' => '', 'full_name' => 'David  Curiel  '],
+            ['customer_id' => 1577, 'name' => 'JOSE ANTONIO ', 'last_name' => 'SANTOS MARTELL', 'maiden_name' => '', 'full_name' => 'JOSE ANTONIO  SANTOS MARTELL '],
+            ['customer_id' => 1455, 'name' => 'Juan ', 'last_name' => 'Gabriel', 'maiden_name' => '', 'full_name' => 'Juan  Gabriel '],
+            ['customer_id' => 1340, 'name' => 'Ismael ', 'last_name' => 'Luz', 'maiden_name' => '', 'full_name' => 'Ismael  Luz '],
+            ['customer_id' => 1590, 'name' => 'Leonardo  ', 'last_name' => 'Paredes ', 'maiden_name' => 'espinosa', 'full_name' => 'Leonardo   Paredes  espinosa'],
+            ['customer_id' => 1591, 'name' => 'RAÚL ', 'last_name' => 'RAÚL ', 'maiden_name' => '', 'full_name' => 'RAÚL  RAÚL  '],
+            ['customer_id' => 1592, 'name' => 'Mauro  ', 'last_name' => 'ruah', 'maiden_name' => '', 'full_name' => 'Mauro   ruah '],
+            ['customer_id' => 1593, 'name' => 'Charly', 'last_name' => 'Charly', 'maiden_name' => '', 'full_name' => 'Charly Charly '],
+            ['customer_id' => 1607, 'name' => 'Ismael ', 'last_name' => 'Escobar ', 'maiden_name' => 'Santana ', 'full_name' => 'Ismael  Escobar  Santana '],
+            ['customer_id' => 1364, 'name' => 'RAFAEL', 'last_name' => 'DE LA LUZ', 'maiden_name' => '', 'full_name' => 'RAFAEL DE LA LUZ '],
+            ['customer_id' => 1604, 'name' => 'Amado', 'last_name' => 'diaz', 'maiden_name' => '', 'full_name' => 'Amado diaz '],
+            ['customer_id' => 1561, 'name' => 'Juan Manuel ', 'last_name' => 'Hernández Escobar ', 'maiden_name' => '', 'full_name' => 'Juan Manuel  Hernández Escobar  '],
+            ['customer_id' => 1550, 'name' => 'Victor ', 'last_name' => 'Manuel ', 'maiden_name' => '', 'full_name' => 'Victor  Manuel  '],
+            ['customer_id' => 1610, 'name' => 'Ricardo ', 'last_name' => 'Castillo ', 'maiden_name' => 'del Carmen ', 'full_name' => 'Ricardo  Castillo  del Carmen '],
+            ['customer_id' => 1613, 'name' => 'Mohamed ', 'last_name' => 'fetian ', 'maiden_name' => '', 'full_name' => 'Mohamed  fetian  '],
+            ['customer_id' => 1605, 'name' => 'José daniel ', 'last_name' => 'García ', 'maiden_name' => '', 'full_name' => 'José daniel  García  '],
+            ['customer_id' => 1411, 'name' => 'Luis ', 'last_name' => 'Ponce Aguilar ', 'maiden_name' => '', 'full_name' => 'Luis  Ponce Aguilar  '],
+            ['customer_id' => 1611, 'name' => 'Samuel Sanchez ', 'last_name' => 'Sanchez ', 'maiden_name' => '', 'full_name' => 'Samuel Sanchez  Sanchez  '],
+            ['customer_id' => 1608, 'name' => 'Mitzy Maricela  ', 'last_name' => 'Giles ', 'maiden_name' => 'Sánchez', 'full_name' => 'Mitzy Maricela   Giles  Sánchez'],
+            ['customer_id' => 1612, 'name' => 'David Armando ', 'last_name' => 'Miranda ', 'maiden_name' => 'hidalgo ', 'full_name' => 'David Armando  Miranda  hidalgo '],
+            ['customer_id' => 1616, 'name' => 'Diego Ernesto  ', 'last_name' => 'De la Cruz ', 'maiden_name' => 'Rico', 'full_name' => 'Diego Ernesto   De la Cruz  Rico'],
+            ['customer_id' => 1614, 'name' => 'Jair', 'last_name' => 'becerril', 'maiden_name' => '', 'full_name' => 'Jair becerril '],
+            ['customer_id' => 1618, 'name' => 'Jose Angel ', 'last_name' => 'Mayorga ', 'maiden_name' => '', 'full_name' => 'Jose Angel  Mayorga  '],
+            ['customer_id' => 1626, 'name' => 'Andres Jonathan ', 'last_name' => 'chavez ', 'maiden_name' => 'mendoza ', 'full_name' => 'Andres Jonathan  chavez  mendoza '],
+            ['customer_id' => 1627, 'name' => 'Gabriel ', 'last_name' => 'Dávila ', 'maiden_name' => 'García ', 'full_name' => 'Gabriel  Dávila  García '],
+            ['customer_id' => 1620, 'name' => 'Salvador abram ', 'last_name' => 'Málaga ', 'maiden_name' => 'Colin ', 'full_name' => 'Salvador abram  Málaga  Colin '],
+            ['customer_id' => 1619, 'name' => 'Andru ', 'last_name' => 'Hernandez ', 'maiden_name' => '', 'full_name' => 'Andru  Hernandez  '],
+            ['customer_id' => 1629, 'name' => 'Raymundo ', 'last_name' => 'cano ', 'maiden_name' => 'Ramírez ', 'full_name' => 'Raymundo  cano  Ramírez '],
+            ['customer_id' => 1630, 'name' => 'Gabriel ', 'last_name' => 'Ramirez ', 'maiden_name' => 'Ortega ', 'full_name' => 'Gabriel  Ramirez  Ortega '],
+            ['customer_id' => 1634, 'name' => 'Alberto ', 'last_name' => 'Arellano ', 'maiden_name' => 'Cid ', 'full_name' => 'Alberto  Arellano  Cid '],
+            ['customer_id' => 1652, 'name' => 'Giovanni oliverio ', 'last_name' => 'de Haro ', 'maiden_name' => 'gonzalez ', 'full_name' => 'Giovanni oliverio  de Haro  gonzalez '],
+            ['customer_id' => 1657, 'name' => 'Estefani pamela ', 'last_name' => 'beaña ', 'maiden_name' => 'Rojas ', 'full_name' => 'Estefani pamela  beaña  Rojas '],
+            ['customer_id' => 1659, 'name' => 'jesus ', 'last_name' => 'najera ', 'maiden_name' => '', 'full_name' => 'jesus  najera  '],
+            ['customer_id' => 1661, 'name' => 'Alfredo ', 'last_name' => 'Santiago ', 'maiden_name' => '', 'full_name' => 'Alfredo  Santiago  '],
+            ['customer_id' => 1668, 'name' => 'Manuel de Jesús ', 'last_name' => 'Jimenez Navarrete ', 'maiden_name' => '', 'full_name' => 'Manuel de Jesús  Jimenez Navarrete  '],
+            ['customer_id' => 1654, 'name' => 'Fernando Arturo ', 'last_name' => 'Ramirez ', 'maiden_name' => 'Torres ', 'full_name' => 'Fernando Arturo  Ramirez  Torres '],
+            ['customer_id' => 1599, 'name' => 'Eric Alejandro ', 'last_name' => 'Cruz ', 'maiden_name' => 'reyes ', 'full_name' => 'Eric Alejandro  Cruz  reyes '],
+            ['customer_id' => 1645, 'name' => 'Alejandro ', 'last_name' => 'Pardo ', 'maiden_name' => 'Tovar ', 'full_name' => 'Alejandro  Pardo  Tovar '],
+            ['customer_id' => 1631, 'name' => 'Mario ', 'last_name' => 'perez ', 'maiden_name' => 'sanchez ', 'full_name' => 'Mario  perez  sanchez '],
+            ['customer_id' => 1647, 'name' => 'Luis alexander ', 'last_name' => 'gallardo gonzalez', 'maiden_name' => 'gonzalez ', 'full_name' => 'Luis alexander  gallardo gonzalez gonzalez '],
+            ['customer_id' => 1632, 'name' => 'Gerardo ', 'last_name' => 'Gerardo ', 'maiden_name' => '', 'full_name' => 'Gerardo  Gerardo  '],
+            ['customer_id' => 1655, 'name' => 'ISAEL ALDAIR ', 'last_name' => 'Ayala sanche ', 'maiden_name' => '', 'full_name' => 'ISAEL ALDAIR  Ayala sanche  '],
+            ['customer_id' => 1639, 'name' => 'Miriam janette', 'last_name' => ' Cruz Cuevas ', 'maiden_name' => '', 'full_name' => 'Miriam janette  Cruz Cuevas  '],
+            ['customer_id' => 1640, 'name' => 'Carlos ', 'last_name' => 'Miranda ', 'maiden_name' => '', 'full_name' => 'Carlos  Miranda  '],
+            ['customer_id' => 1646, 'name' => 'Rodrigo ', 'last_name' => 'amador sixto ', 'maiden_name' => '', 'full_name' => 'Rodrigo  amador sixto  '],
+            ['customer_id' => 1481, 'name' => 'Perla ', 'last_name' => 'Guerra ', 'maiden_name' => 'Guerrero', 'full_name' => 'Perla  Guerra  Guerrero'],
+            ['customer_id' => 1658, 'name' => 'Angelica Jazmin ', 'last_name' => 'Acosta Perez ', 'maiden_name' => '', 'full_name' => 'Angelica Jazmin  Acosta Perez  '],
+            ['customer_id' => 1635, 'name' => 'Brenda ', 'last_name' => 'Andrade', 'maiden_name' => '', 'full_name' => 'Brenda  Andrade '],
+            ['customer_id' => 1636, 'name' => 'Alfredo ', 'last_name' => 'Duran ', 'maiden_name' => 'Martinez ', 'full_name' => 'Alfredo  Duran  Martinez '],
+            ['customer_id' => 1638, 'name' => 'Martin', 'last_name' => 'Martin', 'maiden_name' => '', 'full_name' => 'Martin Martin '],
+            ['customer_id' => 1642, 'name' => 'Israel ', 'last_name' => 'González  ', 'maiden_name' => 'soto', 'full_name' => 'Israel  González   soto'],
+            ['customer_id' => 1643, 'name' => 'Edgar Francisco  ', 'last_name' => 'Lira Casas', 'maiden_name' => '', 'full_name' => 'Edgar Francisco   Lira Casas '],
+            ['customer_id' => 1648, 'name' => 'Iván Arturo ', 'last_name' => 'Meneses Martínez ', 'maiden_name' => '', 'full_name' => 'Iván Arturo  Meneses Martínez  '],
+            ['customer_id' => 1650, 'name' => 'Luis Enrique ', 'last_name' => 'Lugo Cruz ', 'maiden_name' => '', 'full_name' => 'Luis Enrique  Lugo Cruz  '],
+            ['customer_id' => 1651, 'name' => 'Benjamín ', 'last_name' => 'Maya ', 'maiden_name' => '', 'full_name' => 'Benjamín  Maya  '],
+            ['customer_id' => 1656, 'name' => 'Luis Ángel ', 'last_name' => 'Santana ', 'maiden_name' => 'Martínez ', 'full_name' => 'Luis Ángel  Santana  Martínez '],
+            ['customer_id' => 1662, 'name' => 'Hugo ', 'last_name' => 'Alberto ', 'maiden_name' => '', 'full_name' => 'Hugo  Alberto  '],
+            ['customer_id' => 1663, 'name' => 'Jesus ', 'last_name' => 'González ', 'maiden_name' => 'González ', 'full_name' => 'Jesus  González  González '],
+            ['customer_id' => 1426, 'name' => 'Carla Mayte ', 'last_name' => 'Muñoz Villazteca ', 'maiden_name' => '', 'full_name' => 'Carla Mayte  Muñoz Villazteca  '],
+            ['customer_id' => 1694, 'name' => 'Victor', 'last_name' => 'Victor', 'maiden_name' => '', 'full_name' => 'Victor Victor '],
+            ['customer_id' => 1653, 'name' => 'Ana Virginia ', 'last_name' => 'De la Cruz Tovar ', 'maiden_name' => '', 'full_name' => 'Ana Virginia  De la Cruz Tovar  '],
+            ['customer_id' => 1667, 'name' => 'Juan', 'last_name' => ' Rodríguez Landeros ', 'maiden_name' => '', 'full_name' => 'Juan  Rodríguez Landeros  '],
+            ['customer_id' => 1670, 'name' => 'Lizbeth de Jesus  ', 'last_name' => 'Ramirez ', 'maiden_name' => 'Cruz', 'full_name' => 'Lizbeth de Jesus   Ramirez  Cruz'],
+            ['customer_id' => 1674, 'name' => 'Israel ', 'last_name' => 'Nava ', 'maiden_name' => 'paredes', 'full_name' => 'Israel  Nava  paredes'],
+            ['customer_id' => 1671, 'name' => 'Eder', 'last_name' => 'Eder', 'maiden_name' => '', 'full_name' => 'Eder Eder '],
+            ['customer_id' => 1672, 'name' => 'Emmanuel Jonhatan  ', 'last_name' => 'Espinoza merlos', 'maiden_name' => '', 'full_name' => 'Emmanuel Jonhatan   Espinoza merlos '],
+            ['customer_id' => 1675, 'name' => 'Daniel ', 'last_name' => 'Gonzalez', 'maiden_name' => '', 'full_name' => 'Daniel  Gonzalez '],
+            ['customer_id' => 1679, 'name' => 'francisco', 'last_name' => 'alejandro', 'maiden_name' => '', 'full_name' => 'francisco alejandro '],
+            ['customer_id' => 1683, 'name' => 'Diego', 'last_name' => 'Diego', 'maiden_name' => '', 'full_name' => 'Diego Diego '],
+            ['customer_id' => 1669, 'name' => 'Irving ', 'last_name' => 'Mendez ', 'maiden_name' => 'Campeche', 'full_name' => 'Irving  Mendez  Campeche'],
+            ['customer_id' => 1695, 'name' => 'Daniel', 'last_name' => 'valo', 'maiden_name' => 'sanchez', 'full_name' => 'Daniel valo sanchez'],
+            ['customer_id' => 1362, 'name' => 'Brandon Yahir Olivares Lara', 'last_name' => 'Olivares ', 'maiden_name' => 'Lara', 'full_name' => 'Brandon Yahir Olivares Lara Olivares  Lara'],
+            ['customer_id' => 1673, 'name' => 'Luz ', 'last_name' => 'Malva', 'maiden_name' => '', 'full_name' => 'Luz  Malva '],
+            ['customer_id' => 1570, 'name' => 'Montserrat ', 'last_name' => 'null', 'maiden_name' => '', 'full_name' => 'Montserrat  null '],
+            ['customer_id' => 1684, 'name' => 'Nancy ', 'last_name' => 'Ruiz Villarreal ', 'maiden_name' => '', 'full_name' => 'Nancy  Ruiz Villarreal  '],
+            ['customer_id' => 1693, 'name' => ' julio cesar ', 'last_name' => 'Nolasco ', 'maiden_name' => 'novoa', 'full_name' => ' julio cesar  Nolasco  novoa'],
+            ['customer_id' => 1686, 'name' => 'Edmundo David ', 'last_name' => 'Montoya ', 'maiden_name' => 'Ojeda', 'full_name' => 'Edmundo David  Montoya  Ojeda'],
+            ['customer_id' => 1687, 'name' => 'Jasmin ', 'last_name' => 'Merino ', 'maiden_name' => '', 'full_name' => 'Jasmin  Merino  '],
+            ['customer_id' => 1688, 'name' => 'Luis Fernando ', 'last_name' => 'Rangel ', 'maiden_name' => '', 'full_name' => 'Luis Fernando  Rangel  '],
+            ['customer_id' => 1405, 'name' => 'Alfredo ', 'last_name' => 'NULL', 'maiden_name' => '', 'full_name' => 'Alfredo  NULL '],
+            ['customer_id' => 1415, 'name' => 'Carlos Daniel', 'last_name' => ' Roque Delgado ', 'maiden_name' => '', 'full_name' => 'Carlos Daniel  Roque Delgado  '],
+            ['customer_id' => 1625, 'name' => 'Jose ', 'last_name' => 'Guadalupe ', 'maiden_name' => '', 'full_name' => 'Jose  Guadalupe  '],
+            ['customer_id' => 1697, 'name' => 'Luis Fernando ', 'last_name' => 'Martinez ', 'maiden_name' => 'reyes ', 'full_name' => 'Luis Fernando  Martinez  reyes '],
+            ['customer_id' => 1621, 'name' => 'Eduardo ivan ', 'last_name' => 'Almanza', 'maiden_name' => 'oramas ', 'full_name' => 'Eduardo ivan  Almanza oramas '],
+            ['customer_id' => 1423, 'name' => 'victor', 'last_name' => 'martinez', 'maiden_name' => 'bedolla', 'full_name' => 'victor martinez bedolla'],
+            ['customer_id' => 1373, 'name' => 'Ricardo ', 'last_name' => 'Vazquez ', 'maiden_name' => 'Moreno', 'full_name' => 'Ricardo  Vazquez  Moreno'],
+            ['customer_id' => 1347, 'name' => 'EMILIO', 'last_name' => 'CRUZ', 'maiden_name' => 'GARCIA', 'full_name' => 'EMILIO CRUZ GARCIA'],
+
         ];
 
 
@@ -495,6 +352,9 @@ class CustomerPromotionSeeder extends Seeder
             DB::table('customer_promotions')->insert([
                 'customer_id' => $customer['customer_id'],
                 'name' => $customer['name'],
+                'last_name' => $customer['last_name'],
+                'maiden_name' => $customer['maiden_name'],
+                'full_name' => $customer['full_name'],
                 'id_promotion' => 1,
                 'created_at' => $dateNow,
                 'updated_at' => $dateAfter30Days,

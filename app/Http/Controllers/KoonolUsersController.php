@@ -2,21 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreCustomerPromotionRequest;
-use App\Http\Requests\UpdateCustomerPromotionRequest;
-use App\Models\CustomerPromotion;
+use App\Models\KoonolUsers;
+use Illuminate\Http\Request;
 
-class CustomerPromotionController extends Controller
+class KoonolUsersController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-
-        $customers = CustomerPromotion::paginate(10);;
-
-        return view('admin.customers.index', ['customers' => $customers]);
+        $koonolUsers = KoonolUsers::orderBy('id', 'asc')->paginate(10);
+        return view('admin.koonolUsers.index', ['KoonolUsers' => $koonolUsers]);
     }
 
     /**
@@ -30,7 +27,7 @@ class CustomerPromotionController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreCustomerPromotionRequest $request)
+    public function store(Request $request)
     {
         //
     }
@@ -38,7 +35,7 @@ class CustomerPromotionController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(CustomerPromotion $customerPromotion)
+    public function show(string $id)
     {
         //
     }
@@ -46,7 +43,7 @@ class CustomerPromotionController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(CustomerPromotion $customerPromotion)
+    public function edit(string $id)
     {
         //
     }
@@ -54,7 +51,7 @@ class CustomerPromotionController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateCustomerPromotionRequest $request, CustomerPromotion $customerPromotion)
+    public function update(Request $request, string $id)
     {
         //
     }
@@ -62,8 +59,13 @@ class CustomerPromotionController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(CustomerPromotion $customerPromotion)
+    public function destroy(string $id)
     {
         //
+    }
+
+    public function koonolPayments()
+    {
+        return 'hola';
     }
 }

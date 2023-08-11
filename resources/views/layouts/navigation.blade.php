@@ -15,8 +15,17 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('cum')" :active="request()->routeIs('cum')">
-                        {{ __('cum') }}
+                    <x-nav-link :href="route('customers')" :active="request()->routeIs('customers')">
+                        {{ __('customers') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('promotions')" :active="request()->routeIs('promotions')">
+                        {{ __('promotions') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('koonolUsers')" :active="request()->routeIs('koonolUsers')">
+                        {{ __('koonolUsers') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('koonolPayments')" :active="request()->routeIs('koonolPayments')">
+                        {{ __('koonolPayments') }}
                     </x-nav-link>
                 </div>
             </div>

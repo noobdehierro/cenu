@@ -13,7 +13,9 @@ class PromotionController extends Controller
      */
     public function index()
     {
-        //
+        $promotions = Promotion::paginate(10);;
+
+        return view('admin.promotions.index', ['promotions' => $promotions]);
     }
 
     /**

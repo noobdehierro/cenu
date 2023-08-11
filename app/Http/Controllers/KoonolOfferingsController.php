@@ -2,21 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreCustomerPromotionRequest;
-use App\Http\Requests\UpdateCustomerPromotionRequest;
-use App\Models\CustomerPromotion;
+use App\Models\KoonolOfferings;
+use Illuminate\Http\Request;
 
-class CustomerPromotionController extends Controller
+class KoonolOfferingsController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-
-        $customers = CustomerPromotion::paginate(10);;
-
-        return view('admin.customers.index', ['customers' => $customers]);
+        //
     }
 
     /**
@@ -30,7 +26,7 @@ class CustomerPromotionController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreCustomerPromotionRequest $request)
+    public function store(Request $request)
     {
         //
     }
@@ -38,7 +34,7 @@ class CustomerPromotionController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(CustomerPromotion $customerPromotion)
+    public function show(KoonolOfferings $koonolOfferings)
     {
         //
     }
@@ -46,7 +42,7 @@ class CustomerPromotionController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(CustomerPromotion $customerPromotion)
+    public function edit(KoonolOfferings $koonolOfferings)
     {
         //
     }
@@ -54,7 +50,7 @@ class CustomerPromotionController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateCustomerPromotionRequest $request, CustomerPromotion $customerPromotion)
+    public function update(Request $request, KoonolOfferings $koonolOfferings)
     {
         //
     }
@@ -62,7 +58,7 @@ class CustomerPromotionController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(CustomerPromotion $customerPromotion)
+    public function destroy(KoonolOfferings $koonolOfferings)
     {
         //
     }

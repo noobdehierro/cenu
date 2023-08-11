@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\CustomerPromotionController;
+use App\Http\Controllers\KoonolPaymentsController;
+use App\Http\Controllers\KoonolUsersController;
 use App\Http\Controllers\ProfileController;
-use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\PromotionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,16 +26,11 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/cum', function () {
-
-    DB::connection('pgsql')->beginTransaction();
-    $data = DB::connection('pgsql')->table('addresses')->get();
-    DB::connection('pgsql')->commit();
-
-    dd($data);
-
-    return view('cum');
-})->middleware(['auth', 'verified'])->name('cum');
+Route::get('/customers', [CustomerPromotionController::class, 'index'])->middleware(['auth', 'verified'])->name('customers');
+Route::get('/promotions', [PromotionController::class, 'index'])->middleware(['auth', 'verified'])->name('promotions');
+Route::get('/koonolUsers', [KoonolUsersController::class, 'index'])->middleware(['auth', 'verified'])->name('koonolUsers');
+Route::get('/koonolPayments', [KoonolPaymentsController::class, 'index'])->middleware(['auth', 'verified'])->name('koonolPayments');
+Route::get('/koonolPaymentByCustomer', [KoonolPaymentsController::class, 'koonolPaymentByCustomer'])->middleware(['auth', 'verified'])->name('koonolPaymentByCustomer');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

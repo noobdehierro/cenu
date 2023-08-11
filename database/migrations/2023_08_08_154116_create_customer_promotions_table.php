@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('customer_id');
             $table->string('name');
+            $table->string('last_name');
+            $table->string('maiden_name');
+            $table->string('full_name');
             $table->unsignedBigInteger('id_promotion');
             $table->timestamps();
 
